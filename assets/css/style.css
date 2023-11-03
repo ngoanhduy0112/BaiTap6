@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 64px;
+    width: 100%;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+
+}
+.content-2{
+    border: 1px solid rgb(218, 220, 224);
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 40px 15px 0 40px;
+    min-height: 447px;
+    padding: 30px 40px;
+}
+aside{
+    display: block;
+}
+
+
+fieldset{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+section{
+    flex: 1 1 0;
+    max-width: 470px;
+    min-width: 390px;
+    padding: 15px;
+
+}
+    
